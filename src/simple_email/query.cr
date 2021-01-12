@@ -1,5 +1,4 @@
-require "http/client"
-require "./email-message"
+require "http"
 
 module SimpleEmail::Query
   DEFAULT_HOST = "filedealer.nexploit.app"
