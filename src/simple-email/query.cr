@@ -1,17 +1,19 @@
 require "http"
 
 module SimpleEmail::Query
-  DEFAULT_HOST = "filedealer.nexploit.app"
-  DEFAULT_PORT = 443
+  DEFAULT_SCHEME = "https"
+  DEFAULT_HOST   = "filedealer.nexploit.app"
+  DEFAULT_PORT   = 443
 
-  def self.execute(host : String = DEFAULT_HOST,
+  def self.execute(scheme : String = DEFAULT_SCHEME,
+                   host : String = DEFAULT_HOST,
                    port : Int32 = DEFAULT_PORT,
                    subj_includes : String = "",
                    from_includes : String = "",
                    to_includes : String = "",
                    body_includes : String = "")
     uri = URI.new(
-      scheme: "https",
+      scheme: scheme,
       host: host,
       port: port,
       path: "/mailq",
