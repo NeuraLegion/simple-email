@@ -2,6 +2,6 @@ name: simple-email
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - Victor Leschuk <victor.leschuk@neuralegion.com>
 
 crystal: 0.35.1
