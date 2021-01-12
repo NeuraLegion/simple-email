@@ -1,7 +1,7 @@
 require "http/client"
 require "./email-message"
 
-module EmailQuery
+module SimpleEmail::Query
   DEFAULT_HOST = "filedealer.nexploit.app"
   DEFAULT_PORT = 443
 
