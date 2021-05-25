@@ -4,4 +4,4 @@ version: 0.1.0
 authors:
   - Victor Leschuk <victor.leschuk@neuralegion.com>
 
-crystal: 0.35.1
+crystal: ">= 0.35.1, < 2"
