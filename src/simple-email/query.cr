@@ -2,7 +2,7 @@ require "http"
 
 module SimpleEmail::Query
   DEFAULT_SCHEME = "https"
-  DEFAULT_HOST   = "filedealer.neuralegion.com"
+  DEFAULT_HOST   = "filedealer.nexploit.app"
   DEFAULT_PORT   = 443
 
   def self.execute(scheme : String = DEFAULT_SCHEME,

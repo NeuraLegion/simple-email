@@ -2,7 +2,7 @@ require "./spec_helper"
 
 describe SimpleEmail::Query do
   it "calls and parse" do
-    res = SimpleEmail::Query.execute(from_includes: "no-reply", to_includes: "testspec@app.neuralegion.com")
+    res = SimpleEmail::Query.execute(from_includes: "no-reply", to_includes: "testspec@nexploit.app")
     res.empty?.should be_false
   end
 
